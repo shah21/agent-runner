@@ -10,7 +10,7 @@ on:
   # Hourly at :30, 16:30-02:30 UTC. Public repositories get free minutes, but a scheduled run
   # still takes a runner for a few seconds.
   schedule:
-    - cron: '*/5 * * * *' # TEMPORARY: schedule test, restore to 30 16-23,0-2
+    - cron: '30 16-23,0-2 * * *'
 
 permissions:
   contents: read
